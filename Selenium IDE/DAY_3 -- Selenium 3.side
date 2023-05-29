@@ -1,0 +1,67 @@
+{
+  "id": "dfc18345-a3dd-4905-a193-e43cade7ea2e",
+  "version": "2.0",
+  "name": "DAY_3",
+  "url": "https://demo.opencart.com/",
+  "tests": [{
+    "id": "2969de84-433a-4e84-8263-57313dfdec3e",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "e35caf56-b3dc-465e-a7b0-ce1de010e007",
+    "name": "TC_003",
+    "commands": [{
+      "id": "c24c6785-620c-4a39-a0e8-9cc490f02424",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bb0e950-16b5-434b-ad15-c40eeda41891",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04084b3b-acf9-48ea-a38f-6f93072fbe69",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Your Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c48e9582-9794-46d8-82b8-76a20298e9c2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "pageUrl"
+    }, {
+      "id": "c307cec5-9887-4e0d-8eec-65617f1950cb",
+      "comment": "",
+      "command": "echo",
+      "target": "${pageUrl}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49dc025d-de0b-4177-94ab-657d60d79cbf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "52bb0a5b-bdbb-4313-813d-0a60eaf03a91",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2969de84-433a-4e84-8263-57313dfdec3e"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}
